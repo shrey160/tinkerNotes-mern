@@ -1,0 +1,23 @@
+{
+  "name": "mern-test-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project",
+    "start": "npm run start --prefix backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrey160/tinkerNotes-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shrey160/tinkerNotes-mern/issues"
+  },
+  "homepage": "https://github.com/shrey160/tinkerNotes-mern#readme"
+}
